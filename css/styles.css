@@ -1,0 +1,28 @@
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 19px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li :hover {
+    background-color: #F5B7B1;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F5F1F1;
+
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: solid rgba(146, 173, 175, 0.7);
+    background-color: rgba(128, 128, 128, 0.5);
+}
