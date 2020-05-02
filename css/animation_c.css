@@ -4,6 +4,8 @@
 
 body{
     margin: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/378/132/non_2x/vector-banner-of-the-universe.jpg);
+    background-size: cover;
 }
 
 img{
@@ -14,6 +16,10 @@ section{
     display: flex;
     justify-content: center;
 
+}
+
+nav{
+    padding: 30px;
 }
 
 #infinity {
@@ -34,7 +40,7 @@ section{
     left: 0;
     width: 60px;
     height: 60px;
-    border: 20px solid blue;
+    border: 20px solid lightgray;
     border-radius: 50px 50px 0 50px;
     transform: rotate(-45deg);
   }
